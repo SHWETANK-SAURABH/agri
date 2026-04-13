@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   FaSeedling,
-  FaWeatherSun,
+  FaSun,
   FaBrain,
   FaHandHoldingWater,
   FaChartLine,
@@ -19,7 +19,7 @@ export default function Home() {
       desc: "Smart crop yield predictions using advanced machine learning",
     },
     {
-      icon: <FaWeatherSun />,
+      icon: <FaSun />,
       title: "Weather Insights",
       desc: "Real-time weather forecasts tailored for farming decisions",
     },
@@ -97,7 +97,7 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="floating-card card-1">
-            <FaWeatherSun className="card-icon" />
+            <FaSun className="card-icon" />
             <span>28°C - Sunny</span>
           </div>
           <div className="floating-card card-2">
